@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-21T18:17:08 IST" name="Suite" finished-at="2023-09-21T18:17:17 IST" duration-ms="8494">
+    <groups>
+      <group name="regional">
+        <method signature="Simple1.tester()[pri:0, instance:com.PracticeTestNG.Simple1@223191a6]" name="tester" class="com.PracticeTestNG.Simple1"/>
+      </group> <!-- regional -->
+      <group name="regression">
+        <method signature="Simple1.simpletest()[pri:0, instance:com.PracticeTestNG.Simple1@223191a6]" name="simpletest" class="com.PracticeTestNG.Simple1"/>
+        <method signature="SmokeBaseClassTestCases.demo()[pri:0, instance:com.PracticeTestNG.SmokeBaseClassTestCases@57a3af25]" name="demo" class="com.PracticeTestNG.SmokeBaseClassTestCases"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Simple1.puntertest()[pri:0, instance:com.PracticeTestNG.Simple1@223191a6]" name="puntertest" class="com.PracticeTestNG.Simple1"/>
+        <method signature="Simple1.simpletest()[pri:0, instance:com.PracticeTestNG.Simple1@223191a6]" name="simpletest" class="com.PracticeTestNG.Simple1"/>
+        <method signature="SmokeBaseClassTestCases.demo()[pri:0, instance:com.PracticeTestNG.SmokeBaseClassTestCases@57a3af25]" name="demo" class="com.PracticeTestNG.SmokeBaseClassTestCases"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-09-21T18:17:08 IST" name="Test" finished-at="2023-09-21T18:17:17 IST" duration-ms="8494">
+      <class name="com.PracticeTestNG.SmokeBaseClassTestCases">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.PracticeTestNG.SmokeBaseClassTestCases@57a3af25]" started-at="2023-09-21T18:17:08 IST" name="configBS" finished-at="2023-09-21T18:17:08 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.PracticeTestNG.SmokeBaseClassTestCases@57a3af25]" started-at="2023-09-21T18:17:08 IST" name="configBC" finished-at="2023-09-21T18:17:15 IST" duration-ms="6328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.PracticeTestNG.SmokeBaseClassTestCases@57a3af25]" started-at="2023-09-21T18:17:15 IST" name="configBM" finished-at="2023-09-21T18:17:16 IST" duration-ms="923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="demo()[pri:0, instance:com.PracticeTestNG.SmokeBaseClassTestCases@57a3af25]" started-at="2023-09-21T18:17:16 IST" name="demo" finished-at="2023-09-21T18:17:16 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.PracticeTestNG.SmokeBaseClassTestCases@57a3af25]" started-at="2023-09-21T18:17:16 IST" name="configAM" finished-at="2023-09-21T18:17:16 IST" duration-ms="734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.PracticeTestNG.SmokeBaseClassTestCases@57a3af25]" started-at="2023-09-21T18:17:16 IST" name="configAC" finished-at="2023-09-21T18:17:17 IST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.PracticeTestNG.SmokeBaseClassTestCases@57a3af25]" started-at="2023-09-21T18:17:17 IST" name="configAS" finished-at="2023-09-21T18:17:17 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.PracticeTestNG.SmokeBaseClassTestCases -->
+      <class name="com.PracticeTestNG.Simple1">
+        <test-method signature="puntertest()[pri:0, instance:com.PracticeTestNG.Simple1@223191a6]" started-at="2023-09-21T18:17:17 IST" name="puntertest" finished-at="2023-09-21T18:17:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- puntertest -->
+        <test-method signature="simpletest()[pri:0, instance:com.PracticeTestNG.Simple1@223191a6]" started-at="2023-09-21T18:17:17 IST" name="simpletest" finished-at="2023-09-21T18:17:17 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpletest -->
+        <test-method signature="tester()[pri:0, instance:com.PracticeTestNG.Simple1@223191a6]" started-at="2023-09-21T18:17:17 IST" name="tester" finished-at="2023-09-21T18:17:17 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tester -->
+      </class> <!-- com.PracticeTestNG.Simple1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
